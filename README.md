@@ -1,79 +1,67 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Fuel Calculator App
 
-# Getting Started
+## Purpose
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+- The Fuel Calculator App is a React Native mobile application designed to help users determine whether it's more economical to use ethanol (alcohol) or gasoline as fuel for their vehicles. The app calculates the fuel's cost-effectiveness based on user-provided prices per liter for both ethanol and gasoline.
 
-## Step 1: Start the Metro Server
+The primary features of this app include:
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+- Entering prices for ethanol and gasoline.
+- Calculating the cost-effectiveness of using either fuel.
+- Displaying a recommendation based on the calculated result.
+- Providing an option to recalculate.
+- This app is a practical tool for individuals looking to make informed decisions when filling up their vehicles with fuel.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+## Fuel Calculator App Preview
+
+### Screenshot:
+
+  <img src="./src/assets/screenshot1.png" alt="Screenshot 1" width="300">
+  <br>
+  <br>
+  <img src="./src/assets/screenshot2.png" alt="Screenshot 2" width="300">
+  <br>
+  <br>
+  <img src="./src/assets/screenshot3.png" alt="Screenshot 3" width="300">
+  <br>
+
+## Technologies Used
+
+- React Native
+- CLI
+- React Native Modal
+
+## How to Use
+
+### Clone the repository to your local machine:
 
 ```bash
-# using npm
-npm start
+git clone git@github.com:FranciscoVieir/FuelCalculator-App.git
+```
 
-# OR using Yarn
+### Access the folder
+
+```bash
+cd gasStationCalculator
+```
+
+## Install dependencies:
+
+```bash
+npm install
+```
+
+#### or
+
+```bash
 yarn start
 ```
 
-## Step 2: Start your Application
+## Availble Scripts
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+In the project, directory, you can run the following scripts:
 
-### For Android
-
-```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### For iOS
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+- npm run start or yarn start: Starts the CLI development server.
+- npm run android or yarn android: Runs the app on an Android emulator/simulator.
+- npm run ios or yarn ios: Runs the app on an iOS simulator.
+- npm run eject or yarn eject: Ejects the app from CLI, if needed.

@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {
   Image,
+  Keyboard,
   SafeAreaView,
   StyleSheet,
   Text,
@@ -42,6 +43,7 @@ function App() {
       }
 
       setShowModal(true);
+      Keyboard.dismiss();
     } catch (error) {
       console.log('ERROR ' + error);
     }
